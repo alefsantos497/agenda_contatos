@@ -1,4 +1,17 @@
-
+#Modulo menu para a agenda de contatos
+#Descrição: Modulo que contém as funções de menu para a agenda de contatos
+#---------------------------------------------------------------------------
+#Classe ContactBook
+#Descrição: Classe que representa a agenda de contatos
+#Atributos:
+#contact_book: Dicionário que contém os contatos da agenda
+#Métodos:
+#display_menu: Exibe o menu de escolha ao usuario
+#add_contact: Adiciona um contato à agenda
+#view_contact: Exibe informações de um contato da agenda
+#edit_contact: Edita informações de um contato da agenda
+#delete_contact: Exclui um contato da agenda
+#list_all_contacts: Exibe todos os contatos da agenda
 class ContactBook:
     def __init__(self):
         self.contact_book = {}
